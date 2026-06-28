@@ -1,0 +1,64 @@
+2026-06-28 15:58:23,056 - INFO - Preprocessor initialized
+2026-06-28 15:58:23,056 - INFO - FeatureEngineer initialized
+2026-06-28 15:58:23,056 - INFO - Output directory ready: /Users/asadbek/Documents/hotel_price_category/models/engineered
+2026-06-28 15:58:23,058 - INFO - Data loaded: 1258 rows, 8 cols
+2026-06-28 15:58:23,060 - INFO - Train and test split => Train: 1006, Test: 252
+2026-06-28 15:58:23,060 - INFO - Starting fillna for training data
+2026-06-28 15:58:23,063 - INFO - Completed fillna for training data
+2026-06-28 15:58:23,063 - INFO - Starting fillna for test data
+2026-06-28 15:58:23,064 - INFO - Completed fillna for test data
+2026-06-28 15:58:23,064 - INFO - Starting feature engineering
+2026-06-28 15:58:23,064 - INFO - Input dataframe shape: (1006, 7)
+2026-06-28 15:58:23,066 - INFO - Added engineered features: ['distance_category', 'city_popularity', 'adults_category']
+2026-06-28 15:58:23,066 - INFO - Output dataframe shape: (1006, 10)
+2026-06-28 15:58:23,066 - INFO - Completed feature engineering
+2026-06-28 15:58:23,066 - INFO - Starting feature engineering
+2026-06-28 15:58:23,066 - INFO - Input dataframe shape: (252, 7)
+2026-06-28 15:58:23,066 - INFO - Added engineered features: ['distance_category', 'city_popularity', 'adults_category']
+2026-06-28 15:58:23,066 - INFO - Output dataframe shape: (252, 10)
+2026-06-28 15:58:23,066 - INFO - Completed feature engineering
+2026-06-28 15:58:23,066 - INFO - Starting encoding for training data with threshold=2
+2026-06-28 15:58:23,067 - INFO - Label encoded 'title'
+2026-06-28 15:58:23,067 - INFO - Label encoded 'city'
+2026-06-28 15:58:23,068 - INFO - Label encoded 'description'
+2026-06-28 15:58:23,068 - INFO - Completed encoding for training data
+2026-06-28 15:58:23,068 - INFO - Starting encoding for test data
+2026-06-28 15:58:23,136 - INFO - Completed encoding for test data
+2026-06-28 15:58:23,136 - INFO - Checking skewness for numeric features
+2026-06-28 15:58:23,136 - INFO - Numeric columns found for skewness check: ['title', 'price', 'adults', 'city', 'distance_to_center', 'description']
+2026-06-28 15:58:23,138 - INFO - Skewness summary (top 5):
+price                 1.656087
+distance_to_center    1.547860
+description           0.615350
+city                  0.421847
+adults                0.146373
+2026-06-28 15:58:23,138 - INFO - Checking skewness with threshold 0.4
+2026-06-28 15:58:23,138 - INFO - Numeric feature count for skewness check: 6
+2026-06-28 15:58:23,138 - INFO - Found 2 skewed numeric features above threshold: ['price', 'distance_to_center']
+2026-06-28 15:58:23,139 - INFO - Starting scaling for training data
+2026-06-28 15:58:23,140 - INFO - Scaled training column 'title'
+2026-06-28 15:58:23,141 - INFO - Scaled training column 'price'
+2026-06-28 15:58:23,142 - INFO - Scaled training column 'adults'
+2026-06-28 15:58:23,142 - INFO - Scaled training column 'city'
+2026-06-28 15:58:23,143 - INFO - Scaled training column 'distance_to_center'
+2026-06-28 15:58:23,144 - INFO - Scaled training column 'description'
+2026-06-28 15:58:23,145 - INFO - Scaled training column 'bf_has_included'
+2026-06-28 15:58:23,145 - INFO - Completed scaling for training data
+2026-06-28 15:58:23,145 - INFO - Starting scaling for test data
+2026-06-28 15:58:23,145 - INFO - Scaled test column 'title'
+2026-06-28 15:58:23,146 - INFO - Scaled test column 'price'
+2026-06-28 15:58:23,146 - INFO - Scaled test column 'adults'
+2026-06-28 15:58:23,147 - INFO - Scaled test column 'city'
+2026-06-28 15:58:23,147 - INFO - Scaled test column 'distance_to_center'
+2026-06-28 15:58:23,148 - INFO - Scaled test column 'description'
+2026-06-28 15:58:23,148 - INFO - Scaled test column 'bf_has_included'
+2026-06-28 15:58:23,148 - INFO - Completed scaling for test data
+2026-06-28 15:58:23,148 - INFO - ==================================================
+2026-06-28 15:58:23,148 - INFO - Starting One-vs-One + SMOTE training
+2026-06-28 15:58:23,148 - INFO - Applying SMOTE oversampling
+2026-06-28 15:58:23,158 - INFO - SMOTE completed | Original: 1006 samples | Resampled: 1072 samples
+2026-06-28 15:58:23,158 - INFO - Training One-vs-One Logistic Regression model
+2026-06-28 15:58:23,168 - INFO - Making predictions
+2026-06-28 15:58:23,170 - INFO - Accuracy: 0.9286
+2026-06-28 15:58:23,172 - INFO - Model saved: /Users/asadbek/Documents/hotel_price_category/models/engineered/LogisticRegression.joblib
+2026-06-28 15:58:23,172 - INFO - ==================================================

@@ -1,0 +1,1070 @@
+2026-06-26 15:50:12,332 - INFO - Initializing Hotel_Scraper
+2026-06-26 15:50:12,333 - INFO - Output directory ready: /Users/asadbek/Documents/hotel_price_category/data
+2026-06-26 15:50:12,333 - INFO - City CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/cities
+2026-06-26 15:50:12,333 - INFO - Merged CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/merged
+2026-06-26 15:50:12,337 - INFO - Starting scrape for all hotels
+2026-06-26 15:50:12,337 - INFO - Scraping by city is: samarkand
+2026-06-26 15:50:12,337 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 15:50:16,815 - INFO - Found 50 listings for samarkand number of people 1
+2026-06-26 15:50:16,832 - INFO - Parsed 50 hotel records for samarkand number of people 1
+2026-06-26 15:50:16,833 - INFO - Scraped 50 hotel records for samarkand number of people 1
+2026-06-26 15:50:17,838 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 15:50:22,522 - INFO - Found 50 listings for samarkand number of people 2
+2026-06-26 15:50:22,540 - INFO - Parsed 50 hotel records for samarkand number of people 2
+2026-06-26 15:50:22,540 - INFO - Scraped 50 hotel records for samarkand number of people 2
+2026-06-26 15:50:23,545 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 15:50:38,555 - ERROR - Request timed out: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mybooking.uz', port=443) at 0x10fa0ed60>, 'Connection to mybooking.uz timed out. (connect timeout=15)'))
+2026-06-26 15:50:38,556 - INFO - Scraped 0 hotel records for samarkand number of people 3
+2026-06-26 15:50:38,557 - WARNING - No data returned for samarkand on number of people 3
+2026-06-26 15:50:39,574 - INFO - Saved 100 records to /Users/asadbek/Documents/hotel_price_category/data/cities/samarkand.csv
+2026-06-26 15:50:39,575 - INFO - Scraping by city is: tashkent
+2026-06-26 15:50:39,575 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 15:50:44,145 - INFO - Found 50 listings for tashkent number of people 1
+2026-06-26 15:50:44,162 - INFO - Parsed 50 hotel records for tashkent number of people 1
+2026-06-26 15:50:44,163 - INFO - Scraped 50 hotel records for tashkent number of people 1
+2026-06-26 15:50:45,168 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 15:50:49,862 - INFO - Found 50 listings for tashkent number of people 2
+2026-06-26 15:50:49,879 - INFO - Parsed 50 hotel records for tashkent number of people 2
+2026-06-26 15:50:49,880 - INFO - Scraped 50 hotel records for tashkent number of people 2
+2026-06-26 15:50:50,885 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 15:50:55,391 - INFO - Found 50 listings for tashkent number of people 3
+2026-06-26 15:50:55,408 - INFO - Parsed 50 hotel records for tashkent number of people 3
+2026-06-26 15:50:55,408 - INFO - Scraped 50 hotel records for tashkent number of people 3
+2026-06-26 15:50:56,422 - INFO - Saved 150 records to /Users/asadbek/Documents/hotel_price_category/data/cities/tashkent.csv
+2026-06-26 15:50:56,422 - INFO - Scraping by city is: bukhara
+2026-06-26 15:50:56,422 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 15:51:01,567 - INFO - Found 48 listings for bukhara number of people 1
+2026-06-26 15:51:01,583 - INFO - Parsed 48 hotel records for bukhara number of people 1
+2026-06-26 15:51:01,584 - INFO - Scraped 48 hotel records for bukhara number of people 1
+2026-06-26 15:51:02,589 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 15:51:04,010 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 15:51:04,011 - INFO - Scraped 0 hotel records for bukhara number of people 2
+2026-06-26 15:51:04,012 - WARNING - No data returned for bukhara on number of people 2
+2026-06-26 15:51:05,017 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 15:51:09,827 - INFO - Found 44 listings for bukhara number of people 3
+2026-06-26 15:51:09,842 - INFO - Parsed 44 hotel records for bukhara number of people 3
+2026-06-26 15:51:09,842 - INFO - Scraped 44 hotel records for bukhara number of people 3
+2026-06-26 15:51:10,854 - INFO - Saved 92 records to /Users/asadbek/Documents/hotel_price_category/data/cities/bukhara.csv
+2026-06-26 15:51:10,854 - INFO - Scraping by city is: fergana
+2026-06-26 15:51:10,854 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 15:51:14,358 - INFO - Found 16 listings for fergana number of people 1
+2026-06-26 15:51:14,364 - INFO - Parsed 16 hotel records for fergana number of people 1
+2026-06-26 15:51:14,365 - INFO - Scraped 16 hotel records for fergana number of people 1
+2026-06-26 15:51:15,370 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 15:51:19,832 - INFO - Found 16 listings for fergana number of people 2
+2026-06-26 15:51:19,838 - INFO - Parsed 16 hotel records for fergana number of people 2
+2026-06-26 15:51:19,838 - INFO - Scraped 16 hotel records for fergana number of people 2
+2026-06-26 15:51:20,843 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 15:51:24,296 - INFO - Found 12 listings for fergana number of people 3
+2026-06-26 15:51:24,301 - INFO - Parsed 12 hotel records for fergana number of people 3
+2026-06-26 15:51:24,301 - INFO - Scraped 12 hotel records for fergana number of people 3
+2026-06-26 15:51:25,313 - INFO - Saved 44 records to /Users/asadbek/Documents/hotel_price_category/data/cities/fergana.csv
+2026-06-26 15:51:25,314 - INFO - Scraping by city is: andijan
+2026-06-26 15:51:25,314 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 15:51:29,514 - INFO - Found 10 listings for andijan number of people 1
+2026-06-26 15:51:29,518 - INFO - Parsed 10 hotel records for andijan number of people 1
+2026-06-26 15:51:29,519 - INFO - Scraped 10 hotel records for andijan number of people 1
+2026-06-26 15:51:30,524 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 15:51:34,436 - INFO - Found 11 listings for andijan number of people 2
+2026-06-26 15:51:34,440 - INFO - Parsed 11 hotel records for andijan number of people 2
+2026-06-26 15:51:34,441 - INFO - Scraped 11 hotel records for andijan number of people 2
+2026-06-26 15:51:35,446 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 15:51:38,742 - INFO - Found 8 listings for andijan number of people 3
+2026-06-26 15:51:38,745 - INFO - Parsed 8 hotel records for andijan number of people 3
+2026-06-26 15:51:38,746 - INFO - Scraped 8 hotel records for andijan number of people 3
+2026-06-26 15:51:39,756 - INFO - Saved 29 records to /Users/asadbek/Documents/hotel_price_category/data/cities/andijan.csv
+2026-06-26 15:51:39,757 - INFO - Scraping by city is: namangan
+2026-06-26 15:51:39,757 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 15:51:43,543 - INFO - Found 8 listings for namangan number of people 1
+2026-06-26 15:51:43,547 - INFO - Parsed 8 hotel records for namangan number of people 1
+2026-06-26 15:51:43,547 - INFO - Scraped 8 hotel records for namangan number of people 1
+2026-06-26 15:51:44,552 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 15:51:46,912 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 15:51:46,913 - INFO - Scraped 0 hotel records for namangan number of people 2
+2026-06-26 15:51:46,914 - WARNING - No data returned for namangan on number of people 2
+2026-06-26 15:51:47,919 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 15:51:51,357 - INFO - Found 5 listings for namangan number of people 3
+2026-06-26 15:51:51,359 - INFO - Parsed 5 hotel records for namangan number of people 3
+2026-06-26 15:51:51,360 - INFO - Scraped 5 hotel records for namangan number of people 3
+2026-06-26 15:51:52,372 - INFO - Saved 13 records to /Users/asadbek/Documents/hotel_price_category/data/cities/namangan.csv
+2026-06-26 15:51:52,372 - INFO - Scraping by city is: khiva
+2026-06-26 15:51:52,372 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 15:51:56,062 - INFO - Found 10 listings for khiva number of people 1
+2026-06-26 15:51:56,066 - INFO - Parsed 10 hotel records for khiva number of people 1
+2026-06-26 15:51:56,067 - INFO - Scraped 10 hotel records for khiva number of people 1
+2026-06-26 15:51:57,072 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 15:52:01,161 - INFO - Found 10 listings for khiva number of people 2
+2026-06-26 15:52:01,165 - INFO - Parsed 10 hotel records for khiva number of people 2
+2026-06-26 15:52:01,166 - INFO - Scraped 10 hotel records for khiva number of people 2
+2026-06-26 15:52:02,171 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 15:52:05,964 - INFO - Found 6 listings for khiva number of people 3
+2026-06-26 15:52:05,967 - INFO - Parsed 6 hotel records for khiva number of people 3
+2026-06-26 15:52:05,967 - INFO - Scraped 6 hotel records for khiva number of people 3
+2026-06-26 15:52:06,979 - INFO - Saved 26 records to /Users/asadbek/Documents/hotel_price_category/data/cities/khiva.csv
+2026-06-26 15:52:06,979 - INFO - Scraping by city is: urgench
+2026-06-26 15:52:06,979 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 15:52:10,587 - INFO - Found 12 listings for urgench number of people 1
+2026-06-26 15:52:10,592 - INFO - Parsed 12 hotel records for urgench number of people 1
+2026-06-26 15:52:10,592 - INFO - Scraped 12 hotel records for urgench number of people 1
+2026-06-26 15:52:11,597 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 15:52:14,957 - INFO - Found 12 listings for urgench number of people 2
+2026-06-26 15:52:14,961 - INFO - Parsed 12 hotel records for urgench number of people 2
+2026-06-26 15:52:14,962 - INFO - Scraped 12 hotel records for urgench number of people 2
+2026-06-26 15:52:15,967 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 15:52:20,201 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 15:52:20,201 - INFO - Scraped 0 hotel records for urgench number of people 3
+2026-06-26 15:52:20,202 - WARNING - No data returned for urgench on number of people 3
+2026-06-26 15:52:21,211 - INFO - Saved 24 records to /Users/asadbek/Documents/hotel_price_category/data/cities/urgench.csv
+2026-06-26 15:52:21,212 - INFO - Scraping by city is: nukus
+2026-06-26 15:52:21,212 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 15:52:24,733 - INFO - Found 6 listings for nukus number of people 1
+2026-06-26 15:52:24,735 - INFO - Parsed 6 hotel records for nukus number of people 1
+2026-06-26 15:52:24,735 - INFO - Scraped 6 hotel records for nukus number of people 1
+2026-06-26 15:52:25,741 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 15:52:29,216 - INFO - Found 9 listings for nukus number of people 2
+2026-06-26 15:52:29,220 - INFO - Parsed 9 hotel records for nukus number of people 2
+2026-06-26 15:52:29,220 - INFO - Scraped 9 hotel records for nukus number of people 2
+2026-06-26 15:52:30,225 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 15:52:33,707 - INFO - Found 4 listings for nukus number of people 3
+2026-06-26 15:52:33,709 - INFO - Parsed 4 hotel records for nukus number of people 3
+2026-06-26 15:52:33,709 - INFO - Scraped 4 hotel records for nukus number of people 3
+2026-06-26 15:52:34,719 - INFO - Saved 19 records to /Users/asadbek/Documents/hotel_price_category/data/cities/nukus.csv
+2026-06-26 15:52:34,719 - INFO - Scraping by city is: navoi
+2026-06-26 15:52:34,719 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 15:52:38,736 - INFO - Found 11 listings for navoi number of people 1
+2026-06-26 15:52:38,740 - INFO - Parsed 11 hotel records for navoi number of people 1
+2026-06-26 15:52:38,741 - INFO - Scraped 11 hotel records for navoi number of people 1
+2026-06-26 15:52:39,746 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 15:52:43,238 - INFO - Found 11 listings for navoi number of people 2
+2026-06-26 15:52:43,242 - INFO - Parsed 11 hotel records for navoi number of people 2
+2026-06-26 15:52:43,243 - INFO - Scraped 11 hotel records for navoi number of people 2
+2026-06-26 15:52:44,248 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 15:52:47,736 - INFO - Found 6 listings for navoi number of people 3
+2026-06-26 15:52:47,738 - INFO - Parsed 6 hotel records for navoi number of people 3
+2026-06-26 15:52:47,739 - INFO - Scraped 6 hotel records for navoi number of people 3
+2026-06-26 15:52:48,749 - INFO - Saved 28 records to /Users/asadbek/Documents/hotel_price_category/data/cities/navoi.csv
+2026-06-26 15:52:48,750 - INFO - Scraping by city is: jizzakh
+2026-06-26 15:52:48,750 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 15:52:52,560 - INFO - Found 9 listings for jizzakh number of people 1
+2026-06-26 15:52:52,563 - INFO - Parsed 9 hotel records for jizzakh number of people 1
+2026-06-26 15:52:52,564 - INFO - Scraped 9 hotel records for jizzakh number of people 1
+2026-06-26 15:52:53,569 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 15:52:55,275 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 15:52:55,276 - INFO - Scraped 0 hotel records for jizzakh number of people 2
+2026-06-26 15:52:55,276 - WARNING - No data returned for jizzakh on number of people 2
+2026-06-26 15:52:56,281 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 15:52:59,737 - INFO - Found 8 listings for jizzakh number of people 3
+2026-06-26 15:52:59,740 - INFO - Parsed 8 hotel records for jizzakh number of people 3
+2026-06-26 15:52:59,740 - INFO - Scraped 8 hotel records for jizzakh number of people 3
+2026-06-26 15:53:00,755 - INFO - Saved 17 records to /Users/asadbek/Documents/hotel_price_category/data/cities/jizzakh.csv
+2026-06-26 16:09:04,911 - INFO - Starting merge of city CSV files
+2026-06-26 16:10:00,709 - INFO - Initializing Hotel_Scraper
+2026-06-26 16:10:00,709 - INFO - Output directory ready: /Users/asadbek/Documents/hotel_price_category/data
+2026-06-26 16:10:00,710 - INFO - City CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/cities
+2026-06-26 16:10:00,710 - INFO - Merged CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/merged
+2026-06-26 16:10:03,901 - INFO - Starting merge of city CSV files
+2026-06-26 16:10:03,902 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/samarkand.csv
+2026-06-26 16:10:03,910 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/tashkent.csv
+2026-06-26 16:10:03,911 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/bukhara.csv
+2026-06-26 16:10:03,913 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/fergana.csv
+2026-06-26 16:10:03,914 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/andijan.csv
+2026-06-26 16:10:03,916 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/namangan.csv
+2026-06-26 16:10:03,917 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/khiva.csv
+2026-06-26 16:10:03,918 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/urgench.csv
+2026-06-26 16:10:03,919 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/nukus.csv
+2026-06-26 16:10:03,919 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/navoi.csv
+2026-06-26 16:10:03,921 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/jizzakh.csv
+2026-06-26 16:10:03,925 - INFO - Merged 11 files into /Users/asadbek/Documents/hotel_price_category/data/merged/hotels.csv with 542 rows
+2026-06-26 16:13:09,583 - INFO - Initializing Hotel_Scraper
+2026-06-26 16:13:09,584 - INFO - Output directory ready: /Users/asadbek/Documents/hotel_price_category/data
+2026-06-26 16:13:09,584 - INFO - City CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/cities
+2026-06-26 16:13:09,584 - INFO - Merged CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/merged
+2026-06-26 16:13:09,587 - INFO - Starting scrape for all hotels
+2026-06-26 16:13:09,587 - INFO - Scraping by city is: samarkand
+2026-06-26 16:13:09,587 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:13:14,359 - INFO - Found 50 listings for samarkand number of people 1
+2026-06-26 16:13:14,377 - INFO - Parsed 50 hotel records for samarkand number of people 1
+2026-06-26 16:13:14,377 - INFO - Scraped 50 hotel records for samarkand number of people 1
+2026-06-26 16:13:15,383 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:13:19,957 - INFO - Found 50 listings for samarkand number of people 2
+2026-06-26 16:13:19,975 - INFO - Parsed 50 hotel records for samarkand number of people 2
+2026-06-26 16:13:19,976 - INFO - Scraped 50 hotel records for samarkand number of people 2
+2026-06-26 16:13:20,976 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:13:25,844 - INFO - Found 50 listings for samarkand number of people 3
+2026-06-26 16:13:25,861 - INFO - Parsed 50 hotel records for samarkand number of people 3
+2026-06-26 16:13:25,861 - INFO - Scraped 50 hotel records for samarkand number of people 3
+2026-06-26 16:13:26,866 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:13:31,422 - INFO - Found 29 listings for samarkand number of people 4
+2026-06-26 16:13:31,432 - INFO - Parsed 29 hotel records for samarkand number of people 4
+2026-06-26 16:13:31,432 - INFO - Scraped 29 hotel records for samarkand number of people 4
+2026-06-26 16:13:32,437 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:13:37,241 - INFO - Found 50 listings for samarkand number of people 5
+2026-06-26 16:13:37,259 - INFO - Parsed 50 hotel records for samarkand number of people 5
+2026-06-26 16:13:37,259 - INFO - Scraped 50 hotel records for samarkand number of people 5
+2026-06-26 16:13:38,284 - INFO - Saved 229 records to /Users/asadbek/Documents/hotel_price_category/data/cities/samarkand.csv
+2026-06-26 16:13:38,285 - INFO - Scraping by city is: tashkent
+2026-06-26 16:13:38,285 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:13:42,966 - INFO - Found 50 listings for tashkent number of people 1
+2026-06-26 16:13:42,983 - INFO - Parsed 50 hotel records for tashkent number of people 1
+2026-06-26 16:13:42,984 - INFO - Scraped 50 hotel records for tashkent number of people 1
+2026-06-26 16:13:43,989 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:13:48,535 - INFO - Found 50 listings for tashkent number of people 2
+2026-06-26 16:13:48,551 - INFO - Parsed 50 hotel records for tashkent number of people 2
+2026-06-26 16:13:48,552 - INFO - Scraped 50 hotel records for tashkent number of people 2
+2026-06-26 16:13:49,557 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:13:54,390 - INFO - Found 50 listings for tashkent number of people 3
+2026-06-26 16:13:54,407 - INFO - Parsed 50 hotel records for tashkent number of people 3
+2026-06-26 16:13:54,408 - INFO - Scraped 50 hotel records for tashkent number of people 3
+2026-06-26 16:13:55,413 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:14:01,236 - INFO - Found 32 listings for tashkent number of people 4
+2026-06-26 16:14:01,249 - INFO - Parsed 32 hotel records for tashkent number of people 4
+2026-06-26 16:14:01,249 - INFO - Scraped 32 hotel records for tashkent number of people 4
+2026-06-26 16:14:02,254 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:14:07,242 - INFO - Found 50 listings for tashkent number of people 5
+2026-06-26 16:14:07,260 - INFO - Parsed 50 hotel records for tashkent number of people 5
+2026-06-26 16:14:07,260 - INFO - Scraped 50 hotel records for tashkent number of people 5
+2026-06-26 16:14:08,273 - INFO - Saved 232 records to /Users/asadbek/Documents/hotel_price_category/data/cities/tashkent.csv
+2026-06-26 16:14:08,273 - INFO - Scraping by city is: bukhara
+2026-06-26 16:14:08,273 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:14:23,281 - ERROR - Request timed out: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mybooking.uz', port=443) at 0x11381f250>, 'Connection to mybooking.uz timed out. (connect timeout=15)'))
+2026-06-26 16:14:23,287 - INFO - Scraped 0 hotel records for bukhara number of people 1
+2026-06-26 16:14:23,287 - WARNING - No data returned for bukhara on number of people 1
+2026-06-26 16:14:24,292 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:14:29,225 - INFO - Found 50 listings for bukhara number of people 2
+2026-06-26 16:14:29,243 - INFO - Parsed 50 hotel records for bukhara number of people 2
+2026-06-26 16:14:29,243 - INFO - Scraped 50 hotel records for bukhara number of people 2
+2026-06-26 16:14:30,248 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:14:34,959 - INFO - Found 44 listings for bukhara number of people 3
+2026-06-26 16:14:34,975 - INFO - Parsed 44 hotel records for bukhara number of people 3
+2026-06-26 16:14:34,975 - INFO - Scraped 44 hotel records for bukhara number of people 3
+2026-06-26 16:14:35,980 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:14:39,389 - INFO - Found 7 listings for bukhara number of people 4
+2026-06-26 16:14:39,391 - INFO - Parsed 7 hotel records for bukhara number of people 4
+2026-06-26 16:14:39,392 - INFO - Scraped 7 hotel records for bukhara number of people 4
+2026-06-26 16:14:40,397 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:14:42,227 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:14:42,228 - INFO - Scraped 0 hotel records for bukhara number of people 5
+2026-06-26 16:14:42,228 - WARNING - No data returned for bukhara on number of people 5
+2026-06-26 16:14:43,240 - INFO - Saved 101 records to /Users/asadbek/Documents/hotel_price_category/data/cities/bukhara.csv
+2026-06-26 16:14:43,241 - INFO - Scraping by city is: fergana
+2026-06-26 16:14:43,241 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:14:47,119 - INFO - Found 16 listings for fergana number of people 1
+2026-06-26 16:14:47,125 - INFO - Parsed 16 hotel records for fergana number of people 1
+2026-06-26 16:14:47,125 - INFO - Scraped 16 hotel records for fergana number of people 1
+2026-06-26 16:14:48,130 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:14:51,603 - INFO - Found 16 listings for fergana number of people 2
+2026-06-26 16:14:51,609 - INFO - Parsed 16 hotel records for fergana number of people 2
+2026-06-26 16:14:51,610 - INFO - Scraped 16 hotel records for fergana number of people 2
+2026-06-26 16:14:52,615 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:14:56,510 - INFO - Found 12 listings for fergana number of people 3
+2026-06-26 16:14:56,514 - INFO - Parsed 12 hotel records for fergana number of people 3
+2026-06-26 16:14:56,515 - INFO - Scraped 12 hotel records for fergana number of people 3
+2026-06-26 16:14:57,518 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:15:02,258 - INFO - Found 3 listings for fergana number of people 4
+2026-06-26 16:15:02,260 - INFO - Parsed 3 hotel records for fergana number of people 4
+2026-06-26 16:15:02,261 - INFO - Scraped 3 hotel records for fergana number of people 4
+2026-06-26 16:15:03,266 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:15:07,064 - INFO - Found 12 listings for fergana number of people 5
+2026-06-26 16:15:07,069 - INFO - Parsed 12 hotel records for fergana number of people 5
+2026-06-26 16:15:07,069 - INFO - Scraped 12 hotel records for fergana number of people 5
+2026-06-26 16:15:08,077 - INFO - Saved 59 records to /Users/asadbek/Documents/hotel_price_category/data/cities/fergana.csv
+2026-06-26 16:15:08,077 - INFO - Scraping by city is: andijan
+2026-06-26 16:15:08,077 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:15:12,170 - INFO - Found 10 listings for andijan number of people 1
+2026-06-26 16:15:12,174 - INFO - Parsed 10 hotel records for andijan number of people 1
+2026-06-26 16:15:12,174 - INFO - Scraped 10 hotel records for andijan number of people 1
+2026-06-26 16:15:13,179 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:15:17,107 - INFO - Found 11 listings for andijan number of people 2
+2026-06-26 16:15:17,111 - INFO - Parsed 11 hotel records for andijan number of people 2
+2026-06-26 16:15:17,111 - INFO - Scraped 11 hotel records for andijan number of people 2
+2026-06-26 16:15:18,116 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:15:21,690 - INFO - Found 8 listings for andijan number of people 3
+2026-06-26 16:15:21,694 - INFO - Parsed 8 hotel records for andijan number of people 3
+2026-06-26 16:15:21,694 - INFO - Scraped 8 hotel records for andijan number of people 3
+2026-06-26 16:15:22,699 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:15:22,715 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:15:22,716 - INFO - Scraped 0 hotel records for andijan number of people 4
+2026-06-26 16:15:22,716 - WARNING - No data returned for andijan on number of people 4
+2026-06-26 16:15:23,718 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:15:27,223 - INFO - Found 8 listings for andijan number of people 5
+2026-06-26 16:15:27,226 - INFO - Parsed 8 hotel records for andijan number of people 5
+2026-06-26 16:15:27,227 - INFO - Scraped 8 hotel records for andijan number of people 5
+2026-06-26 16:15:28,238 - INFO - Saved 37 records to /Users/asadbek/Documents/hotel_price_category/data/cities/andijan.csv
+2026-06-26 16:15:28,238 - INFO - Scraping by city is: namangan
+2026-06-26 16:15:28,238 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:15:31,718 - INFO - Found 8 listings for namangan number of people 1
+2026-06-26 16:15:31,722 - INFO - Parsed 8 hotel records for namangan number of people 1
+2026-06-26 16:15:31,722 - INFO - Scraped 8 hotel records for namangan number of people 1
+2026-06-26 16:15:32,727 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:15:47,740 - ERROR - Request timed out: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mybooking.uz', port=443) at 0x112b65130>, 'Connection to mybooking.uz timed out. (connect timeout=15)'))
+2026-06-26 16:15:47,743 - INFO - Scraped 0 hotel records for namangan number of people 2
+2026-06-26 16:15:47,745 - WARNING - No data returned for namangan on number of people 2
+2026-06-26 16:15:48,750 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:15:52,029 - INFO - Found 5 listings for namangan number of people 3
+2026-06-26 16:15:52,031 - INFO - Parsed 5 hotel records for namangan number of people 3
+2026-06-26 16:15:52,032 - INFO - Scraped 5 hotel records for namangan number of people 3
+2026-06-26 16:15:53,037 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:15:59,582 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:15:59,583 - INFO - Scraped 0 hotel records for namangan number of people 4
+2026-06-26 16:15:59,584 - WARNING - No data returned for namangan on number of people 4
+2026-06-26 16:16:00,589 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:16:04,184 - INFO - Found 6 listings for namangan number of people 5
+2026-06-26 16:16:04,187 - INFO - Parsed 6 hotel records for namangan number of people 5
+2026-06-26 16:16:04,187 - INFO - Scraped 6 hotel records for namangan number of people 5
+2026-06-26 16:16:05,201 - INFO - Saved 19 records to /Users/asadbek/Documents/hotel_price_category/data/cities/namangan.csv
+2026-06-26 16:16:05,202 - INFO - Scraping by city is: khiva
+2026-06-26 16:16:05,202 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:16:08,744 - INFO - Found 10 listings for khiva number of people 1
+2026-06-26 16:16:08,747 - INFO - Parsed 10 hotel records for khiva number of people 1
+2026-06-26 16:16:08,748 - INFO - Scraped 10 hotel records for khiva number of people 1
+2026-06-26 16:16:09,751 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:16:13,504 - INFO - Found 10 listings for khiva number of people 2
+2026-06-26 16:16:13,509 - INFO - Parsed 10 hotel records for khiva number of people 2
+2026-06-26 16:16:13,509 - INFO - Scraped 10 hotel records for khiva number of people 2
+2026-06-26 16:16:14,514 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:16:19,563 - INFO - Found 6 listings for khiva number of people 3
+2026-06-26 16:16:19,566 - INFO - Parsed 6 hotel records for khiva number of people 3
+2026-06-26 16:16:19,567 - INFO - Scraped 6 hotel records for khiva number of people 3
+2026-06-26 16:16:20,572 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:16:24,557 - INFO - Found 3 listings for khiva number of people 4
+2026-06-26 16:16:24,559 - INFO - Parsed 3 hotel records for khiva number of people 4
+2026-06-26 16:16:24,560 - INFO - Scraped 3 hotel records for khiva number of people 4
+2026-06-26 16:16:25,565 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:16:29,087 - INFO - Found 6 listings for khiva number of people 5
+2026-06-26 16:16:29,090 - INFO - Parsed 6 hotel records for khiva number of people 5
+2026-06-26 16:16:29,091 - INFO - Scraped 6 hotel records for khiva number of people 5
+2026-06-26 16:16:30,110 - INFO - Saved 35 records to /Users/asadbek/Documents/hotel_price_category/data/cities/khiva.csv
+2026-06-26 16:16:30,110 - INFO - Scraping by city is: urgench
+2026-06-26 16:16:30,110 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:16:34,821 - INFO - Found 12 listings for urgench number of people 1
+2026-06-26 16:16:34,825 - INFO - Parsed 12 hotel records for urgench number of people 1
+2026-06-26 16:16:34,826 - INFO - Scraped 12 hotel records for urgench number of people 1
+2026-06-26 16:16:35,829 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:16:39,809 - INFO - Found 12 listings for urgench number of people 2
+2026-06-26 16:16:39,813 - INFO - Parsed 12 hotel records for urgench number of people 2
+2026-06-26 16:16:39,814 - INFO - Scraped 12 hotel records for urgench number of people 2
+2026-06-26 16:16:40,819 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:16:41,430 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:16:41,431 - INFO - Scraped 0 hotel records for urgench number of people 3
+2026-06-26 16:16:41,432 - WARNING - No data returned for urgench on number of people 3
+2026-06-26 16:16:42,435 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:16:46,486 - INFO - Found 6 listings for urgench number of people 4
+2026-06-26 16:16:46,488 - INFO - Parsed 6 hotel records for urgench number of people 4
+2026-06-26 16:16:46,489 - INFO - Scraped 6 hotel records for urgench number of people 4
+2026-06-26 16:16:47,494 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:16:50,889 - INFO - Found 10 listings for urgench number of people 5
+2026-06-26 16:16:50,893 - INFO - Parsed 10 hotel records for urgench number of people 5
+2026-06-26 16:16:50,894 - INFO - Scraped 10 hotel records for urgench number of people 5
+2026-06-26 16:16:51,905 - INFO - Saved 40 records to /Users/asadbek/Documents/hotel_price_category/data/cities/urgench.csv
+2026-06-26 16:16:51,906 - INFO - Scraping by city is: nukus
+2026-06-26 16:16:51,906 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:16:55,468 - INFO - Found 6 listings for nukus number of people 1
+2026-06-26 16:16:55,471 - INFO - Parsed 6 hotel records for nukus number of people 1
+2026-06-26 16:16:55,471 - INFO - Scraped 6 hotel records for nukus number of people 1
+2026-06-26 16:16:56,477 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:16:59,683 - INFO - Found 9 listings for nukus number of people 2
+2026-06-26 16:16:59,687 - INFO - Parsed 9 hotel records for nukus number of people 2
+2026-06-26 16:16:59,687 - INFO - Scraped 9 hotel records for nukus number of people 2
+2026-06-26 16:17:00,692 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:17:04,490 - INFO - Found 4 listings for nukus number of people 3
+2026-06-26 16:17:04,492 - INFO - Parsed 4 hotel records for nukus number of people 3
+2026-06-26 16:17:04,492 - INFO - Scraped 4 hotel records for nukus number of people 3
+2026-06-26 16:17:05,497 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:17:08,874 - INFO - Found 0 listings for nukus number of people 4
+2026-06-26 16:17:08,875 - INFO - Parsed 0 hotel records for nukus number of people 4
+2026-06-26 16:17:08,875 - INFO - Scraped 0 hotel records for nukus number of people 4
+2026-06-26 16:17:08,875 - WARNING - No data returned for nukus on number of people 4
+2026-06-26 16:17:09,881 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:17:13,510 - INFO - Found 4 listings for nukus number of people 5
+2026-06-26 16:17:13,512 - INFO - Parsed 4 hotel records for nukus number of people 5
+2026-06-26 16:17:13,513 - INFO - Scraped 4 hotel records for nukus number of people 5
+2026-06-26 16:17:14,525 - INFO - Saved 23 records to /Users/asadbek/Documents/hotel_price_category/data/cities/nukus.csv
+2026-06-26 16:17:14,525 - INFO - Scraping by city is: navoi
+2026-06-26 16:17:14,525 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:17:18,056 - INFO - Found 11 listings for navoi number of people 1
+2026-06-26 16:17:18,059 - INFO - Parsed 11 hotel records for navoi number of people 1
+2026-06-26 16:17:18,060 - INFO - Scraped 11 hotel records for navoi number of people 1
+2026-06-26 16:17:19,065 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:17:22,741 - INFO - Found 11 listings for navoi number of people 2
+2026-06-26 16:17:22,745 - INFO - Parsed 11 hotel records for navoi number of people 2
+2026-06-26 16:17:22,745 - INFO - Scraped 11 hotel records for navoi number of people 2
+2026-06-26 16:17:23,747 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:17:27,132 - INFO - Found 6 listings for navoi number of people 3
+2026-06-26 16:17:27,135 - INFO - Parsed 6 hotel records for navoi number of people 3
+2026-06-26 16:17:27,135 - INFO - Scraped 6 hotel records for navoi number of people 3
+2026-06-26 16:17:28,141 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:17:31,375 - INFO - Found 4 listings for navoi number of people 4
+2026-06-26 16:17:31,377 - INFO - Parsed 4 hotel records for navoi number of people 4
+2026-06-26 16:17:31,378 - INFO - Scraped 4 hotel records for navoi number of people 4
+2026-06-26 16:17:32,383 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:17:36,127 - INFO - Found 7 listings for navoi number of people 5
+2026-06-26 16:17:36,131 - INFO - Parsed 7 hotel records for navoi number of people 5
+2026-06-26 16:17:36,131 - INFO - Scraped 7 hotel records for navoi number of people 5
+2026-06-26 16:17:37,149 - INFO - Saved 39 records to /Users/asadbek/Documents/hotel_price_category/data/cities/navoi.csv
+2026-06-26 16:17:37,149 - INFO - Scraping by city is: jizzakh
+2026-06-26 16:17:37,149 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:17:40,864 - INFO - Found 9 listings for jizzakh number of people 1
+2026-06-26 16:17:40,868 - INFO - Parsed 9 hotel records for jizzakh number of people 1
+2026-06-26 16:17:40,868 - INFO - Scraped 9 hotel records for jizzakh number of people 1
+2026-06-26 16:17:41,874 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:17:45,458 - INFO - Found 9 listings for jizzakh number of people 2
+2026-06-26 16:17:45,461 - INFO - Parsed 9 hotel records for jizzakh number of people 2
+2026-06-26 16:17:45,462 - INFO - Scraped 9 hotel records for jizzakh number of people 2
+2026-06-26 16:17:46,467 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:17:49,865 - INFO - Found 8 listings for jizzakh number of people 3
+2026-06-26 16:17:49,868 - INFO - Parsed 8 hotel records for jizzakh number of people 3
+2026-06-26 16:17:49,868 - INFO - Scraped 8 hotel records for jizzakh number of people 3
+2026-06-26 16:17:50,873 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:17:54,566 - INFO - Found 4 listings for jizzakh number of people 4
+2026-06-26 16:17:54,568 - INFO - Parsed 4 hotel records for jizzakh number of people 4
+2026-06-26 16:17:54,569 - INFO - Scraped 4 hotel records for jizzakh number of people 4
+2026-06-26 16:17:55,574 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:18:00,253 - INFO - Found 8 listings for jizzakh number of people 5
+2026-06-26 16:18:00,256 - INFO - Parsed 8 hotel records for jizzakh number of people 5
+2026-06-26 16:18:00,257 - INFO - Scraped 8 hotel records for jizzakh number of people 5
+2026-06-26 16:18:01,273 - INFO - Saved 38 records to /Users/asadbek/Documents/hotel_price_category/data/cities/jizzakh.csv
+2026-06-26 16:18:01,273 - INFO - Scraping by city is: termez
+2026-06-26 16:18:01,273 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:18:04,757 - INFO - Found 8 listings for termez number of people 1
+2026-06-26 16:18:04,760 - INFO - Parsed 8 hotel records for termez number of people 1
+2026-06-26 16:18:04,761 - INFO - Scraped 8 hotel records for termez number of people 1
+2026-06-26 16:18:05,763 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:18:09,224 - INFO - Found 8 listings for termez number of people 2
+2026-06-26 16:18:09,227 - INFO - Parsed 8 hotel records for termez number of people 2
+2026-06-26 16:18:09,228 - INFO - Scraped 8 hotel records for termez number of people 2
+2026-06-26 16:18:10,233 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:18:13,814 - INFO - Found 3 listings for termez number of people 3
+2026-06-26 16:18:13,816 - INFO - Parsed 3 hotel records for termez number of people 3
+2026-06-26 16:18:13,816 - INFO - Scraped 3 hotel records for termez number of people 3
+2026-06-26 16:18:14,822 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:18:18,107 - INFO - Found 2 listings for termez number of people 4
+2026-06-26 16:18:18,108 - INFO - Parsed 2 hotel records for termez number of people 4
+2026-06-26 16:18:18,109 - INFO - Scraped 2 hotel records for termez number of people 4
+2026-06-26 16:18:19,114 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:18:22,938 - INFO - Found 4 listings for termez number of people 5
+2026-06-26 16:18:22,940 - INFO - Parsed 4 hotel records for termez number of people 5
+2026-06-26 16:18:22,940 - INFO - Scraped 4 hotel records for termez number of people 5
+2026-06-26 16:18:23,950 - INFO - Saved 25 records to /Users/asadbek/Documents/hotel_price_category/data/cities/termez.csv
+2026-06-26 16:18:24,055 - INFO - Starting merge of city CSV files
+2026-06-26 16:18:24,056 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/samarkand.csv
+2026-06-26 16:18:24,058 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/tashkent.csv
+2026-06-26 16:18:24,059 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/bukhara.csv
+2026-06-26 16:18:24,060 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/fergana.csv
+2026-06-26 16:18:24,061 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/andijan.csv
+2026-06-26 16:18:24,062 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/namangan.csv
+2026-06-26 16:18:24,062 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/khiva.csv
+2026-06-26 16:18:24,063 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/urgench.csv
+2026-06-26 16:18:24,064 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/nukus.csv
+2026-06-26 16:18:24,064 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/navoi.csv
+2026-06-26 16:18:24,065 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/jizzakh.csv
+2026-06-26 16:18:24,066 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/termez.csv
+2026-06-26 16:18:24,069 - INFO - Merged 12 files into /Users/asadbek/Documents/hotel_price_category/data/merged/hotels.csv with 877 rows
+2026-06-26 16:23:33,840 - INFO - Initializing Hotel_Scraper
+2026-06-26 16:23:33,840 - INFO - Output directory ready: /Users/asadbek/Documents/hotel_price_category/data
+2026-06-26 16:23:33,841 - INFO - City CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/cities
+2026-06-26 16:23:33,841 - INFO - Merged CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/merged
+2026-06-26 16:23:33,844 - INFO - Starting scrape for all hotels
+2026-06-26 16:23:33,844 - INFO - Scraping by city is: samarkand
+2026-06-26 16:23:33,844 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:23:40,494 - INFO - Found 50 listings for samarkand number of people 1
+2026-06-26 16:23:40,512 - INFO - Parsed 50 hotel records for samarkand number of people 1
+2026-06-26 16:23:40,513 - INFO - Scraped 50 hotel records for samarkand number of people 1
+2026-06-26 16:23:41,518 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:23:46,129 - INFO - Found 50 listings for samarkand number of people 2
+2026-06-26 16:23:46,146 - INFO - Parsed 50 hotel records for samarkand number of people 2
+2026-06-26 16:23:46,147 - INFO - Scraped 50 hotel records for samarkand number of people 2
+2026-06-26 16:23:47,152 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:23:51,935 - INFO - Found 50 listings for samarkand number of people 3
+2026-06-26 16:23:51,952 - INFO - Parsed 50 hotel records for samarkand number of people 3
+2026-06-26 16:23:51,952 - INFO - Scraped 50 hotel records for samarkand number of people 3
+2026-06-26 16:23:52,958 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:23:57,049 - INFO - Found 29 listings for samarkand number of people 4
+2026-06-26 16:23:57,059 - INFO - Parsed 29 hotel records for samarkand number of people 4
+2026-06-26 16:23:57,059 - INFO - Scraped 29 hotel records for samarkand number of people 4
+2026-06-26 16:23:58,064 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:24:03,106 - INFO - Found 50 listings for samarkand number of people 5
+2026-06-26 16:24:03,124 - INFO - Parsed 50 hotel records for samarkand number of people 5
+2026-06-26 16:24:03,124 - INFO - Scraped 50 hotel records for samarkand number of people 5
+2026-06-26 16:24:04,130 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:24:08,978 - INFO - Found 50 listings for samarkand number of people 6
+2026-06-26 16:24:08,996 - INFO - Parsed 50 hotel records for samarkand number of people 6
+2026-06-26 16:24:08,996 - INFO - Scraped 50 hotel records for samarkand number of people 6
+2026-06-26 16:24:10,001 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/samarkand?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:24:15,094 - INFO - Found 50 listings for samarkand number of people 7
+2026-06-26 16:24:15,112 - INFO - Parsed 50 hotel records for samarkand number of people 7
+2026-06-26 16:24:15,113 - INFO - Scraped 50 hotel records for samarkand number of people 7
+2026-06-26 16:24:16,131 - INFO - Saved 329 records to /Users/asadbek/Documents/hotel_price_category/data/cities/samarkand.csv
+2026-06-26 16:24:16,131 - INFO - Scraping by city is: tashkent
+2026-06-26 16:24:16,131 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:24:21,348 - INFO - Found 50 listings for tashkent number of people 1
+2026-06-26 16:24:21,365 - INFO - Parsed 50 hotel records for tashkent number of people 1
+2026-06-26 16:24:21,366 - INFO - Scraped 50 hotel records for tashkent number of people 1
+2026-06-26 16:24:22,371 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:24:27,264 - INFO - Found 50 listings for tashkent number of people 2
+2026-06-26 16:24:27,281 - INFO - Parsed 50 hotel records for tashkent number of people 2
+2026-06-26 16:24:27,282 - INFO - Scraped 50 hotel records for tashkent number of people 2
+2026-06-26 16:24:28,287 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:24:33,215 - INFO - Found 50 listings for tashkent number of people 3
+2026-06-26 16:24:33,232 - INFO - Parsed 50 hotel records for tashkent number of people 3
+2026-06-26 16:24:33,233 - INFO - Scraped 50 hotel records for tashkent number of people 3
+2026-06-26 16:24:34,237 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:24:38,587 - INFO - Found 32 listings for tashkent number of people 4
+2026-06-26 16:24:38,597 - INFO - Parsed 32 hotel records for tashkent number of people 4
+2026-06-26 16:24:38,598 - INFO - Scraped 32 hotel records for tashkent number of people 4
+2026-06-26 16:24:39,602 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:24:44,672 - INFO - Found 50 listings for tashkent number of people 5
+2026-06-26 16:24:44,690 - INFO - Parsed 50 hotel records for tashkent number of people 5
+2026-06-26 16:24:44,691 - INFO - Scraped 50 hotel records for tashkent number of people 5
+2026-06-26 16:24:45,695 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:24:48,677 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:24:48,678 - INFO - Scraped 0 hotel records for tashkent number of people 6
+2026-06-26 16:24:48,678 - WARNING - No data returned for tashkent on number of people 6
+2026-06-26 16:24:49,682 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/tashkent?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:24:54,424 - INFO - Found 50 listings for tashkent number of people 7
+2026-06-26 16:24:54,442 - INFO - Parsed 50 hotel records for tashkent number of people 7
+2026-06-26 16:24:54,442 - INFO - Scraped 50 hotel records for tashkent number of people 7
+2026-06-26 16:24:55,455 - INFO - Saved 282 records to /Users/asadbek/Documents/hotel_price_category/data/cities/tashkent.csv
+2026-06-26 16:24:55,455 - INFO - Scraping by city is: bukhara
+2026-06-26 16:24:55,455 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:25:00,263 - INFO - Found 48 listings for bukhara number of people 1
+2026-06-26 16:25:00,279 - INFO - Parsed 48 hotel records for bukhara number of people 1
+2026-06-26 16:25:00,279 - INFO - Scraped 48 hotel records for bukhara number of people 1
+2026-06-26 16:25:01,284 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:25:06,176 - INFO - Found 50 listings for bukhara number of people 2
+2026-06-26 16:25:06,194 - INFO - Parsed 50 hotel records for bukhara number of people 2
+2026-06-26 16:25:06,195 - INFO - Scraped 50 hotel records for bukhara number of people 2
+2026-06-26 16:25:07,200 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:25:07,214 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:25:07,214 - INFO - Scraped 0 hotel records for bukhara number of people 3
+2026-06-26 16:25:07,214 - WARNING - No data returned for bukhara on number of people 3
+2026-06-26 16:25:08,219 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:25:12,004 - INFO - Found 7 listings for bukhara number of people 4
+2026-06-26 16:25:12,006 - INFO - Parsed 7 hotel records for bukhara number of people 4
+2026-06-26 16:25:12,007 - INFO - Scraped 7 hotel records for bukhara number of people 4
+2026-06-26 16:25:13,007 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:25:14,817 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:25:14,818 - INFO - Scraped 0 hotel records for bukhara number of people 5
+2026-06-26 16:25:14,819 - WARNING - No data returned for bukhara on number of people 5
+2026-06-26 16:25:15,824 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:25:21,015 - INFO - Found 48 listings for bukhara number of people 6
+2026-06-26 16:25:21,034 - INFO - Parsed 48 hotel records for bukhara number of people 6
+2026-06-26 16:25:21,034 - INFO - Scraped 48 hotel records for bukhara number of people 6
+2026-06-26 16:25:22,039 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/bukhara?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:25:26,869 - INFO - Found 44 listings for bukhara number of people 7
+2026-06-26 16:25:26,885 - INFO - Parsed 44 hotel records for bukhara number of people 7
+2026-06-26 16:25:26,885 - INFO - Scraped 44 hotel records for bukhara number of people 7
+2026-06-26 16:25:27,898 - INFO - Saved 197 records to /Users/asadbek/Documents/hotel_price_category/data/cities/bukhara.csv
+2026-06-26 16:25:27,898 - INFO - Scraping by city is: fergana
+2026-06-26 16:25:27,898 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:25:31,462 - INFO - Found 16 listings for fergana number of people 1
+2026-06-26 16:25:31,468 - INFO - Parsed 16 hotel records for fergana number of people 1
+2026-06-26 16:25:31,469 - INFO - Scraped 16 hotel records for fergana number of people 1
+2026-06-26 16:25:32,474 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:25:36,271 - INFO - Found 16 listings for fergana number of people 2
+2026-06-26 16:25:36,277 - INFO - Parsed 16 hotel records for fergana number of people 2
+2026-06-26 16:25:36,277 - INFO - Scraped 16 hotel records for fergana number of people 2
+2026-06-26 16:25:37,282 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:25:41,006 - INFO - Found 12 listings for fergana number of people 3
+2026-06-26 16:25:41,011 - INFO - Parsed 12 hotel records for fergana number of people 3
+2026-06-26 16:25:41,011 - INFO - Scraped 12 hotel records for fergana number of people 3
+2026-06-26 16:25:42,016 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:25:48,322 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:25:48,323 - INFO - Scraped 0 hotel records for fergana number of people 4
+2026-06-26 16:25:48,324 - WARNING - No data returned for fergana on number of people 4
+2026-06-26 16:25:49,326 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:25:53,551 - INFO - Found 12 listings for fergana number of people 5
+2026-06-26 16:25:53,555 - INFO - Parsed 12 hotel records for fergana number of people 5
+2026-06-26 16:25:53,556 - INFO - Scraped 12 hotel records for fergana number of people 5
+2026-06-26 16:25:54,561 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:25:58,415 - INFO - Found 16 listings for fergana number of people 6
+2026-06-26 16:25:58,421 - INFO - Parsed 16 hotel records for fergana number of people 6
+2026-06-26 16:25:58,422 - INFO - Scraped 16 hotel records for fergana number of people 6
+2026-06-26 16:25:59,427 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/fergana?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:26:03,124 - INFO - Found 12 listings for fergana number of people 7
+2026-06-26 16:26:03,129 - INFO - Parsed 12 hotel records for fergana number of people 7
+2026-06-26 16:26:03,129 - INFO - Scraped 12 hotel records for fergana number of people 7
+2026-06-26 16:26:04,142 - INFO - Saved 84 records to /Users/asadbek/Documents/hotel_price_category/data/cities/fergana.csv
+2026-06-26 16:26:04,142 - INFO - Scraping by city is: andijan
+2026-06-26 16:26:04,142 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:26:08,023 - INFO - Found 10 listings for andijan number of people 1
+2026-06-26 16:26:08,028 - INFO - Parsed 10 hotel records for andijan number of people 1
+2026-06-26 16:26:08,028 - INFO - Scraped 10 hotel records for andijan number of people 1
+2026-06-26 16:26:09,033 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:26:12,634 - INFO - Found 11 listings for andijan number of people 2
+2026-06-26 16:26:12,639 - INFO - Parsed 11 hotel records for andijan number of people 2
+2026-06-26 16:26:12,639 - INFO - Scraped 11 hotel records for andijan number of people 2
+2026-06-26 16:26:13,644 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:26:18,284 - INFO - Found 8 listings for andijan number of people 3
+2026-06-26 16:26:18,288 - INFO - Parsed 8 hotel records for andijan number of people 3
+2026-06-26 16:26:18,289 - INFO - Scraped 8 hotel records for andijan number of people 3
+2026-06-26 16:26:19,299 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:31:05,685 - ERROR - Request timed out: HTTPSConnectionPool(host='mybooking.uz', port=443): Read timed out. (read timeout=15)
+2026-06-26 16:31:05,687 - INFO - Scraped 0 hotel records for andijan number of people 4
+2026-06-26 16:31:05,689 - WARNING - No data returned for andijan on number of people 4
+2026-06-26 16:31:06,694 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:31:10,773 - INFO - Found 8 listings for andijan number of people 5
+2026-06-26 16:31:10,776 - INFO - Parsed 8 hotel records for andijan number of people 5
+2026-06-26 16:31:10,776 - INFO - Scraped 8 hotel records for andijan number of people 5
+2026-06-26 16:31:11,781 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:31:16,144 - INFO - Found 11 listings for andijan number of people 6
+2026-06-26 16:31:16,148 - INFO - Parsed 11 hotel records for andijan number of people 6
+2026-06-26 16:31:16,149 - INFO - Scraped 11 hotel records for andijan number of people 6
+2026-06-26 16:31:17,154 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/andijan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:31:20,921 - INFO - Found 8 listings for andijan number of people 7
+2026-06-26 16:31:20,924 - INFO - Parsed 8 hotel records for andijan number of people 7
+2026-06-26 16:31:20,925 - INFO - Scraped 8 hotel records for andijan number of people 7
+2026-06-26 16:31:21,945 - INFO - Saved 56 records to /Users/asadbek/Documents/hotel_price_category/data/cities/andijan.csv
+2026-06-26 16:31:21,945 - INFO - Scraping by city is: namangan
+2026-06-26 16:31:21,945 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:31:25,285 - INFO - Found 8 listings for namangan number of people 1
+2026-06-26 16:31:25,289 - INFO - Parsed 8 hotel records for namangan number of people 1
+2026-06-26 16:31:25,289 - INFO - Scraped 8 hotel records for namangan number of people 1
+2026-06-26 16:31:26,294 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:31:29,169 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:31:29,169 - INFO - Scraped 0 hotel records for namangan number of people 2
+2026-06-26 16:31:29,170 - WARNING - No data returned for namangan on number of people 2
+2026-06-26 16:31:30,175 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:31:33,537 - INFO - Found 5 listings for namangan number of people 3
+2026-06-26 16:31:33,539 - INFO - Parsed 5 hotel records for namangan number of people 3
+2026-06-26 16:31:33,540 - INFO - Scraped 5 hotel records for namangan number of people 3
+2026-06-26 16:31:34,545 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:31:37,947 - INFO - Found 3 listings for namangan number of people 4
+2026-06-26 16:31:37,949 - INFO - Parsed 3 hotel records for namangan number of people 4
+2026-06-26 16:31:37,950 - INFO - Scraped 3 hotel records for namangan number of people 4
+2026-06-26 16:31:38,955 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:31:42,561 - INFO - Found 6 listings for namangan number of people 5
+2026-06-26 16:31:42,564 - INFO - Parsed 6 hotel records for namangan number of people 5
+2026-06-26 16:31:42,564 - INFO - Scraped 6 hotel records for namangan number of people 5
+2026-06-26 16:31:43,570 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:31:47,304 - INFO - Found 9 listings for namangan number of people 6
+2026-06-26 16:31:47,307 - INFO - Parsed 9 hotel records for namangan number of people 6
+2026-06-26 16:31:47,307 - INFO - Scraped 9 hotel records for namangan number of people 6
+2026-06-26 16:31:48,312 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/namangan?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:31:51,877 - INFO - Found 6 listings for namangan number of people 7
+2026-06-26 16:31:51,880 - INFO - Parsed 6 hotel records for namangan number of people 7
+2026-06-26 16:31:51,881 - INFO - Scraped 6 hotel records for namangan number of people 7
+2026-06-26 16:31:52,891 - INFO - Saved 37 records to /Users/asadbek/Documents/hotel_price_category/data/cities/namangan.csv
+2026-06-26 16:31:52,891 - INFO - Scraping by city is: khiva
+2026-06-26 16:31:52,891 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:31:56,183 - INFO - Found 10 listings for khiva number of people 1
+2026-06-26 16:31:56,188 - INFO - Parsed 10 hotel records for khiva number of people 1
+2026-06-26 16:31:56,188 - INFO - Scraped 10 hotel records for khiva number of people 1
+2026-06-26 16:31:57,193 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:32:02,636 - INFO - Found 10 listings for khiva number of people 2
+2026-06-26 16:32:02,640 - INFO - Parsed 10 hotel records for khiva number of people 2
+2026-06-26 16:32:02,641 - INFO - Scraped 10 hotel records for khiva number of people 2
+2026-06-26 16:32:03,646 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:32:07,030 - INFO - Found 6 listings for khiva number of people 3
+2026-06-26 16:32:07,032 - INFO - Parsed 6 hotel records for khiva number of people 3
+2026-06-26 16:32:07,033 - INFO - Scraped 6 hotel records for khiva number of people 3
+2026-06-26 16:32:08,038 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:32:11,322 - INFO - Found 3 listings for khiva number of people 4
+2026-06-26 16:32:11,324 - INFO - Parsed 3 hotel records for khiva number of people 4
+2026-06-26 16:32:11,324 - INFO - Scraped 3 hotel records for khiva number of people 4
+2026-06-26 16:32:12,329 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:32:16,175 - INFO - Found 6 listings for khiva number of people 5
+2026-06-26 16:32:16,177 - INFO - Parsed 6 hotel records for khiva number of people 5
+2026-06-26 16:32:16,178 - INFO - Scraped 6 hotel records for khiva number of people 5
+2026-06-26 16:32:17,183 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:32:20,475 - INFO - Found 9 listings for khiva number of people 6
+2026-06-26 16:32:20,479 - INFO - Parsed 9 hotel records for khiva number of people 6
+2026-06-26 16:32:20,480 - INFO - Scraped 9 hotel records for khiva number of people 6
+2026-06-26 16:32:21,485 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/khiva?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:32:25,156 - INFO - Found 5 listings for khiva number of people 7
+2026-06-26 16:32:25,159 - INFO - Parsed 5 hotel records for khiva number of people 7
+2026-06-26 16:32:25,159 - INFO - Scraped 5 hotel records for khiva number of people 7
+2026-06-26 16:32:26,171 - INFO - Saved 49 records to /Users/asadbek/Documents/hotel_price_category/data/cities/khiva.csv
+2026-06-26 16:32:26,172 - INFO - Scraping by city is: urgench
+2026-06-26 16:32:26,172 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:32:29,569 - INFO - Found 12 listings for urgench number of people 1
+2026-06-26 16:32:29,574 - INFO - Parsed 12 hotel records for urgench number of people 1
+2026-06-26 16:32:29,574 - INFO - Scraped 12 hotel records for urgench number of people 1
+2026-06-26 16:32:30,579 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:32:35,407 - INFO - Found 12 listings for urgench number of people 2
+2026-06-26 16:32:35,412 - INFO - Parsed 12 hotel records for urgench number of people 2
+2026-06-26 16:32:35,412 - INFO - Scraped 12 hotel records for urgench number of people 2
+2026-06-26 16:32:36,417 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:32:40,531 - INFO - Found 9 listings for urgench number of people 3
+2026-06-26 16:32:40,535 - INFO - Parsed 9 hotel records for urgench number of people 3
+2026-06-26 16:32:40,535 - INFO - Scraped 9 hotel records for urgench number of people 3
+2026-06-26 16:32:41,540 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:32:44,989 - INFO - Found 6 listings for urgench number of people 4
+2026-06-26 16:32:44,991 - INFO - Parsed 6 hotel records for urgench number of people 4
+2026-06-26 16:32:44,992 - INFO - Scraped 6 hotel records for urgench number of people 4
+2026-06-26 16:32:45,997 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:32:50,083 - INFO - Found 10 listings for urgench number of people 5
+2026-06-26 16:32:50,087 - INFO - Parsed 10 hotel records for urgench number of people 5
+2026-06-26 16:32:50,088 - INFO - Scraped 10 hotel records for urgench number of people 5
+2026-06-26 16:32:51,093 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:32:54,906 - INFO - Found 10 listings for urgench number of people 6
+2026-06-26 16:32:54,910 - INFO - Parsed 10 hotel records for urgench number of people 6
+2026-06-26 16:32:54,910 - INFO - Scraped 10 hotel records for urgench number of people 6
+2026-06-26 16:32:55,915 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/urgench?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:33:00,177 - INFO - Found 9 listings for urgench number of people 7
+2026-06-26 16:33:00,181 - INFO - Parsed 9 hotel records for urgench number of people 7
+2026-06-26 16:33:00,181 - INFO - Scraped 9 hotel records for urgench number of people 7
+2026-06-26 16:33:01,192 - INFO - Saved 68 records to /Users/asadbek/Documents/hotel_price_category/data/cities/urgench.csv
+2026-06-26 16:33:01,192 - INFO - Scraping by city is: nukus
+2026-06-26 16:33:01,192 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:33:04,351 - INFO - Found 6 listings for nukus number of people 1
+2026-06-26 16:33:04,354 - INFO - Parsed 6 hotel records for nukus number of people 1
+2026-06-26 16:33:04,354 - INFO - Scraped 6 hotel records for nukus number of people 1
+2026-06-26 16:33:05,359 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:33:08,985 - INFO - Found 9 listings for nukus number of people 2
+2026-06-26 16:33:08,990 - INFO - Parsed 9 hotel records for nukus number of people 2
+2026-06-26 16:33:08,990 - INFO - Scraped 9 hotel records for nukus number of people 2
+2026-06-26 16:33:09,995 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:33:13,171 - INFO - Found 4 listings for nukus number of people 3
+2026-06-26 16:33:13,173 - INFO - Parsed 4 hotel records for nukus number of people 3
+2026-06-26 16:33:13,173 - INFO - Scraped 4 hotel records for nukus number of people 3
+2026-06-26 16:33:14,178 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:33:17,384 - INFO - Found 0 listings for nukus number of people 4
+2026-06-26 16:33:17,385 - INFO - Parsed 0 hotel records for nukus number of people 4
+2026-06-26 16:33:17,385 - INFO - Scraped 0 hotel records for nukus number of people 4
+2026-06-26 16:33:17,385 - WARNING - No data returned for nukus on number of people 4
+2026-06-26 16:33:18,390 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:33:22,213 - INFO - Found 4 listings for nukus number of people 5
+2026-06-26 16:33:22,215 - INFO - Parsed 4 hotel records for nukus number of people 5
+2026-06-26 16:33:22,215 - INFO - Scraped 4 hotel records for nukus number of people 5
+2026-06-26 16:33:23,221 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:33:38,231 - ERROR - Request timed out: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mybooking.uz', port=443) at 0x1110ed670>, 'Connection to mybooking.uz timed out. (connect timeout=15)'))
+2026-06-26 16:33:38,232 - INFO - Scraped 0 hotel records for nukus number of people 6
+2026-06-26 16:33:38,233 - WARNING - No data returned for nukus on number of people 6
+2026-06-26 16:33:39,235 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/nukus?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:33:43,588 - INFO - Found 4 listings for nukus number of people 7
+2026-06-26 16:33:43,589 - INFO - Parsed 4 hotel records for nukus number of people 7
+2026-06-26 16:33:43,590 - INFO - Scraped 4 hotel records for nukus number of people 7
+2026-06-26 16:33:44,600 - INFO - Saved 27 records to /Users/asadbek/Documents/hotel_price_category/data/cities/nukus.csv
+2026-06-26 16:33:44,600 - INFO - Scraping by city is: navoi
+2026-06-26 16:33:44,600 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:33:48,504 - INFO - Found 11 listings for navoi number of people 1
+2026-06-26 16:33:48,508 - INFO - Parsed 11 hotel records for navoi number of people 1
+2026-06-26 16:33:48,509 - INFO - Scraped 11 hotel records for navoi number of people 1
+2026-06-26 16:33:49,514 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:33:53,121 - INFO - Found 11 listings for navoi number of people 2
+2026-06-26 16:33:53,125 - INFO - Parsed 11 hotel records for navoi number of people 2
+2026-06-26 16:33:53,125 - INFO - Scraped 11 hotel records for navoi number of people 2
+2026-06-26 16:33:54,131 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:33:57,414 - INFO - Found 6 listings for navoi number of people 3
+2026-06-26 16:33:57,417 - INFO - Parsed 6 hotel records for navoi number of people 3
+2026-06-26 16:33:57,417 - INFO - Scraped 6 hotel records for navoi number of people 3
+2026-06-26 16:33:58,422 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:34:01,648 - INFO - Found 4 listings for navoi number of people 4
+2026-06-26 16:34:01,649 - INFO - Parsed 4 hotel records for navoi number of people 4
+2026-06-26 16:34:01,650 - INFO - Scraped 4 hotel records for navoi number of people 4
+2026-06-26 16:34:02,655 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:34:06,027 - INFO - Found 7 listings for navoi number of people 5
+2026-06-26 16:34:06,030 - INFO - Parsed 7 hotel records for navoi number of people 5
+2026-06-26 16:34:06,030 - INFO - Scraped 7 hotel records for navoi number of people 5
+2026-06-26 16:34:07,036 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:34:10,465 - INFO - Found 11 listings for navoi number of people 6
+2026-06-26 16:34:10,469 - INFO - Parsed 11 hotel records for navoi number of people 6
+2026-06-26 16:34:10,470 - INFO - Scraped 11 hotel records for navoi number of people 6
+2026-06-26 16:34:11,475 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:34:22,339 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/navoi?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:34:22,345 - INFO - Scraped 0 hotel records for navoi number of people 7
+2026-06-26 16:34:22,346 - WARNING - No data returned for navoi on number of people 7
+2026-06-26 16:34:23,359 - INFO - Saved 50 records to /Users/asadbek/Documents/hotel_price_category/data/cities/navoi.csv
+2026-06-26 16:34:23,359 - INFO - Scraping by city is: jizzakh
+2026-06-26 16:34:23,359 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:34:26,993 - INFO - Found 9 listings for jizzakh number of people 1
+2026-06-26 16:34:26,996 - INFO - Parsed 9 hotel records for jizzakh number of people 1
+2026-06-26 16:34:26,997 - INFO - Scraped 9 hotel records for jizzakh number of people 1
+2026-06-26 16:34:28,002 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:34:31,928 - INFO - Found 9 listings for jizzakh number of people 2
+2026-06-26 16:34:31,932 - INFO - Parsed 9 hotel records for jizzakh number of people 2
+2026-06-26 16:34:31,932 - INFO - Scraped 9 hotel records for jizzakh number of people 2
+2026-06-26 16:34:32,935 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:34:36,623 - INFO - Found 8 listings for jizzakh number of people 3
+2026-06-26 16:34:36,626 - INFO - Parsed 8 hotel records for jizzakh number of people 3
+2026-06-26 16:34:36,627 - INFO - Scraped 8 hotel records for jizzakh number of people 3
+2026-06-26 16:34:37,632 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:34:41,064 - INFO - Found 4 listings for jizzakh number of people 4
+2026-06-26 16:34:41,066 - INFO - Parsed 4 hotel records for jizzakh number of people 4
+2026-06-26 16:34:41,067 - INFO - Scraped 4 hotel records for jizzakh number of people 4
+2026-06-26 16:34:42,072 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:34:45,650 - INFO - Found 8 listings for jizzakh number of people 5
+2026-06-26 16:34:45,654 - INFO - Parsed 8 hotel records for jizzakh number of people 5
+2026-06-26 16:34:45,655 - INFO - Scraped 8 hotel records for jizzakh number of people 5
+2026-06-26 16:34:46,660 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:34:49,963 - INFO - Found 8 listings for jizzakh number of people 6
+2026-06-26 16:34:49,966 - INFO - Parsed 8 hotel records for jizzakh number of people 6
+2026-06-26 16:34:49,967 - INFO - Scraped 8 hotel records for jizzakh number of people 6
+2026-06-26 16:34:50,969 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/jizzakh?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:34:54,374 - INFO - Found 8 listings for jizzakh number of people 7
+2026-06-26 16:34:54,377 - INFO - Parsed 8 hotel records for jizzakh number of people 7
+2026-06-26 16:34:54,378 - INFO - Scraped 8 hotel records for jizzakh number of people 7
+2026-06-26 16:34:55,390 - INFO - Saved 54 records to /Users/asadbek/Documents/hotel_price_category/data/cities/jizzakh.csv
+2026-06-26 16:34:55,390 - INFO - Scraping by city is: termez
+2026-06-26 16:34:55,391 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:34:56,546 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:34:56,547 - INFO - Scraped 0 hotel records for termez number of people 1
+2026-06-26 16:34:56,547 - WARNING - No data returned for termez on number of people 1
+2026-06-26 16:34:57,552 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:35:01,115 - INFO - Found 8 listings for termez number of people 2
+2026-06-26 16:35:01,118 - INFO - Parsed 8 hotel records for termez number of people 2
+2026-06-26 16:35:01,119 - INFO - Scraped 8 hotel records for termez number of people 2
+2026-06-26 16:35:02,124 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:35:06,830 - INFO - Found 3 listings for termez number of people 3
+2026-06-26 16:35:06,831 - INFO - Parsed 3 hotel records for termez number of people 3
+2026-06-26 16:35:06,832 - INFO - Scraped 3 hotel records for termez number of people 3
+2026-06-26 16:35:07,837 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:35:11,337 - INFO - Found 2 listings for termez number of people 4
+2026-06-26 16:35:11,338 - INFO - Parsed 2 hotel records for termez number of people 4
+2026-06-26 16:35:11,339 - INFO - Scraped 2 hotel records for termez number of people 4
+2026-06-26 16:35:12,345 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:35:15,690 - INFO - Found 4 listings for termez number of people 5
+2026-06-26 16:35:15,694 - INFO - Parsed 4 hotel records for termez number of people 5
+2026-06-26 16:35:15,695 - INFO - Scraped 4 hotel records for termez number of people 5
+2026-06-26 16:35:16,700 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:35:20,164 - INFO - Found 8 listings for termez number of people 6
+2026-06-26 16:35:20,168 - INFO - Parsed 8 hotel records for termez number of people 6
+2026-06-26 16:35:20,168 - INFO - Scraped 8 hotel records for termez number of people 6
+2026-06-26 16:35:21,174 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:35:21,763 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/termez?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:35:21,764 - INFO - Scraped 0 hotel records for termez number of people 7
+2026-06-26 16:35:21,766 - WARNING - No data returned for termez on number of people 7
+2026-06-26 16:35:22,786 - INFO - Saved 25 records to /Users/asadbek/Documents/hotel_price_category/data/cities/termez.csv
+2026-06-26 16:35:22,786 - INFO - Scraping by city is: mubarek
+2026-06-26 16:35:22,786 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mubarek?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:35:26,175 - INFO - Found 0 listings for mubarek number of people 1
+2026-06-26 16:35:26,175 - INFO - Parsed 0 hotel records for mubarek number of people 1
+2026-06-26 16:35:26,176 - INFO - Scraped 0 hotel records for mubarek number of people 1
+2026-06-26 16:35:26,176 - WARNING - No data returned for mubarek on number of people 1
+2026-06-26 16:35:27,181 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mubarek?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:35:30,460 - INFO - Found 0 listings for mubarek number of people 2
+2026-06-26 16:35:30,460 - INFO - Parsed 0 hotel records for mubarek number of people 2
+2026-06-26 16:35:30,461 - INFO - Scraped 0 hotel records for mubarek number of people 2
+2026-06-26 16:35:30,461 - WARNING - No data returned for mubarek on number of people 2
+2026-06-26 16:35:31,466 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mubarek?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:35:34,991 - INFO - Found 0 listings for mubarek number of people 3
+2026-06-26 16:35:34,991 - INFO - Parsed 0 hotel records for mubarek number of people 3
+2026-06-26 16:35:34,992 - INFO - Scraped 0 hotel records for mubarek number of people 3
+2026-06-26 16:35:34,992 - WARNING - No data returned for mubarek on number of people 3
+2026-06-26 16:35:35,997 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mubarek?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:35:39,127 - INFO - Found 0 listings for mubarek number of people 4
+2026-06-26 16:35:39,127 - INFO - Parsed 0 hotel records for mubarek number of people 4
+2026-06-26 16:35:39,127 - INFO - Scraped 0 hotel records for mubarek number of people 4
+2026-06-26 16:35:39,127 - WARNING - No data returned for mubarek on number of people 4
+2026-06-26 16:35:40,132 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mubarek?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:35:43,313 - INFO - Found 0 listings for mubarek number of people 5
+2026-06-26 16:35:43,313 - INFO - Parsed 0 hotel records for mubarek number of people 5
+2026-06-26 16:35:43,313 - INFO - Scraped 0 hotel records for mubarek number of people 5
+2026-06-26 16:35:43,313 - WARNING - No data returned for mubarek on number of people 5
+2026-06-26 16:35:44,318 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mubarek?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:35:59,332 - ERROR - Request timed out: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/mubarek?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6 (Caused by ConnectTimeoutError(<HTTPSConnection(host='mybooking.uz', port=443) at 0x11109ed00>, 'Connection to mybooking.uz timed out. (connect timeout=15)'))
+2026-06-26 16:35:59,335 - INFO - Scraped 0 hotel records for mubarek number of people 6
+2026-06-26 16:35:59,337 - WARNING - No data returned for mubarek on number of people 6
+2026-06-26 16:36:00,343 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mubarek?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:36:03,851 - INFO - Found 0 listings for mubarek number of people 7
+2026-06-26 16:36:03,851 - INFO - Parsed 0 hotel records for mubarek number of people 7
+2026-06-26 16:36:03,852 - INFO - Scraped 0 hotel records for mubarek number of people 7
+2026-06-26 16:36:03,852 - WARNING - No data returned for mubarek on number of people 7
+2026-06-26 16:36:04,858 - WARNING - No records collected for city mubarek; skipping CSV save
+2026-06-26 16:36:04,859 - INFO - Scraping by city is: kitab
+2026-06-26 16:36:04,859 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/kitab?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:36:07,729 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/kitab?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:36:07,730 - INFO - Scraped 0 hotel records for kitab number of people 1
+2026-06-26 16:36:07,731 - WARNING - No data returned for kitab on number of people 1
+2026-06-26 16:36:08,736 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/kitab?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:36:12,768 - INFO - Found 0 listings for kitab number of people 2
+2026-06-26 16:36:12,768 - INFO - Parsed 0 hotel records for kitab number of people 2
+2026-06-26 16:36:12,769 - INFO - Scraped 0 hotel records for kitab number of people 2
+2026-06-26 16:36:12,769 - WARNING - No data returned for kitab on number of people 2
+2026-06-26 16:36:13,774 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/kitab?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:36:14,935 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/kitab?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:36:14,936 - INFO - Scraped 0 hotel records for kitab number of people 3
+2026-06-26 16:36:14,937 - WARNING - No data returned for kitab on number of people 3
+2026-06-26 16:36:15,942 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/kitab?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:36:18,908 - INFO - Found 0 listings for kitab number of people 4
+2026-06-26 16:36:18,908 - INFO - Parsed 0 hotel records for kitab number of people 4
+2026-06-26 16:36:18,909 - INFO - Scraped 0 hotel records for kitab number of people 4
+2026-06-26 16:36:18,909 - WARNING - No data returned for kitab on number of people 4
+2026-06-26 16:36:19,914 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/kitab?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:36:23,110 - INFO - Found 0 listings for kitab number of people 5
+2026-06-26 16:36:23,110 - INFO - Parsed 0 hotel records for kitab number of people 5
+2026-06-26 16:36:23,111 - INFO - Scraped 0 hotel records for kitab number of people 5
+2026-06-26 16:36:23,111 - WARNING - No data returned for kitab on number of people 5
+2026-06-26 16:36:24,116 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/kitab?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:36:29,353 - INFO - Found 0 listings for kitab number of people 6
+2026-06-26 16:36:29,354 - INFO - Parsed 0 hotel records for kitab number of people 6
+2026-06-26 16:36:29,355 - INFO - Scraped 0 hotel records for kitab number of people 6
+2026-06-26 16:36:29,355 - WARNING - No data returned for kitab on number of people 6
+2026-06-26 16:36:30,360 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/kitab?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:36:33,442 - INFO - Found 0 listings for kitab number of people 7
+2026-06-26 16:36:33,442 - INFO - Parsed 0 hotel records for kitab number of people 7
+2026-06-26 16:36:33,443 - INFO - Scraped 0 hotel records for kitab number of people 7
+2026-06-26 16:36:33,443 - WARNING - No data returned for kitab on number of people 7
+2026-06-26 16:36:34,448 - WARNING - No records collected for city kitab; skipping CSV save
+2026-06-26 16:36:34,449 - INFO - Scraping by city is: mujnak
+2026-06-26 16:36:34,449 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mujnak?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1
+2026-06-26 16:36:34,460 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/mujnak?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=1 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:36:34,461 - INFO - Scraped 0 hotel records for mujnak number of people 1
+2026-06-26 16:36:34,461 - WARNING - No data returned for mujnak on number of people 1
+2026-06-26 16:36:35,463 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mujnak?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=2
+2026-06-26 16:36:38,774 - INFO - Found 0 listings for mujnak number of people 2
+2026-06-26 16:36:38,774 - INFO - Parsed 0 hotel records for mujnak number of people 2
+2026-06-26 16:36:38,775 - INFO - Scraped 0 hotel records for mujnak number of people 2
+2026-06-26 16:36:38,775 - WARNING - No data returned for mujnak on number of people 2
+2026-06-26 16:36:39,780 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mujnak?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=3
+2026-06-26 16:36:43,085 - INFO - Found 0 listings for mujnak number of people 3
+2026-06-26 16:36:43,085 - INFO - Parsed 0 hotel records for mujnak number of people 3
+2026-06-26 16:36:43,086 - INFO - Scraped 0 hotel records for mujnak number of people 3
+2026-06-26 16:36:43,086 - WARNING - No data returned for mujnak on number of people 3
+2026-06-26 16:36:44,091 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mujnak?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=4
+2026-06-26 16:36:47,376 - INFO - Found 0 listings for mujnak number of people 4
+2026-06-26 16:36:47,376 - INFO - Parsed 0 hotel records for mujnak number of people 4
+2026-06-26 16:36:47,377 - INFO - Scraped 0 hotel records for mujnak number of people 4
+2026-06-26 16:36:47,377 - WARNING - No data returned for mujnak on number of people 4
+2026-06-26 16:36:48,382 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mujnak?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=5
+2026-06-26 16:36:51,675 - INFO - Found 0 listings for mujnak number of people 5
+2026-06-26 16:36:51,675 - INFO - Parsed 0 hotel records for mujnak number of people 5
+2026-06-26 16:36:51,676 - INFO - Scraped 0 hotel records for mujnak number of people 5
+2026-06-26 16:36:51,676 - WARNING - No data returned for mujnak on number of people 5
+2026-06-26 16:36:52,681 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mujnak?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=6
+2026-06-26 16:36:55,957 - INFO - Found 0 listings for mujnak number of people 6
+2026-06-26 16:36:55,957 - INFO - Parsed 0 hotel records for mujnak number of people 6
+2026-06-26 16:36:55,958 - INFO - Scraped 0 hotel records for mujnak number of people 6
+2026-06-26 16:36:55,958 - WARNING - No data returned for mujnak on number of people 6
+2026-06-26 16:36:56,963 - INFO - Fetching hotels list: https://mybooking.uz/uz/hotels/mujnak?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7
+2026-06-26 16:36:59,268 - ERROR - Request failed: HTTPSConnectionPool(host='mybooking.uz', port=443): Max retries exceeded with url: /uz/hotels/mujnak?hotel_id=&checkin=10.07.2026&checkout=11.07.2026&adults=7 (Caused by NewConnectionError("HTTPSConnection(host='mybooking.uz', port=443): Failed to establish a new connection: [Errno 65] No route to host"))
+2026-06-26 16:36:59,269 - INFO - Scraped 0 hotel records for mujnak number of people 7
+2026-06-26 16:36:59,270 - WARNING - No data returned for mujnak on number of people 7
+2026-06-26 16:37:00,274 - WARNING - No records collected for city mujnak; skipping CSV save
+2026-06-26 16:37:00,383 - INFO - Starting merge of city CSV files
+2026-06-26 16:37:00,383 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/samarkand.csv
+2026-06-26 16:37:00,385 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/tashkent.csv
+2026-06-26 16:37:00,386 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/bukhara.csv
+2026-06-26 16:37:00,387 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/fergana.csv
+2026-06-26 16:37:00,388 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/andijan.csv
+2026-06-26 16:37:00,388 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/namangan.csv
+2026-06-26 16:37:00,389 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/khiva.csv
+2026-06-26 16:37:00,390 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/urgench.csv
+2026-06-26 16:37:00,391 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/nukus.csv
+2026-06-26 16:37:00,391 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/navoi.csv
+2026-06-26 16:37:00,392 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/jizzakh.csv
+2026-06-26 16:37:00,393 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/termez.csv
+2026-06-26 16:37:00,393 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mubarek.csv
+2026-06-26 16:37:00,393 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/kitab.csv
+2026-06-26 16:37:00,393 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mujnak.csv
+2026-06-26 16:37:00,397 - INFO - Merged 12 files into /Users/asadbek/Documents/hotel_price_category/data/merged/hotels.csv with 1258 rows
+2026-06-28 12:13:41,432 - INFO - Initializing Hotel_Scraper
+2026-06-28 12:13:41,432 - INFO - Output directory ready: /Users/asadbek/Documents/hotel_price_category/data
+2026-06-28 12:13:41,432 - INFO - City CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/cities
+2026-06-28 12:13:41,433 - INFO - Merged CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/merged
+2026-06-28 12:23:53,570 - INFO - Starting merge of city CSV files
+2026-06-28 12:23:53,571 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/samarkand.csv
+2026-06-28 12:23:53,577 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/tashkent.csv
+2026-06-28 12:23:53,578 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/bukhara.csv
+2026-06-28 12:23:53,579 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/fergana.csv
+2026-06-28 12:23:53,580 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/andijan.csv
+2026-06-28 12:23:53,581 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/namangan.csv
+2026-06-28 12:23:53,581 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/khiva.csv
+2026-06-28 12:23:53,582 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/urgench.csv
+2026-06-28 12:23:53,583 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/nukus.csv
+2026-06-28 12:23:53,584 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/navoi.csv
+2026-06-28 12:23:53,584 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/jizzakh.csv
+2026-06-28 12:23:53,586 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/termez.csv
+2026-06-28 12:23:53,587 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mubarek.csv
+2026-06-28 12:23:53,587 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/kitab.csv
+2026-06-28 12:23:53,587 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mujnak.csv
+2026-06-28 12:23:53,594 - INFO - Merged 12 files into /Users/asadbek/Documents/hotel_price_category/data/merged/hotels.csv with 1258 rows
+2026-06-28 12:24:07,187 - INFO - Initializing Hotel_Scraper
+2026-06-28 12:24:07,187 - INFO - Output directory ready: /Users/asadbek/Documents/hotel_price_category/data
+2026-06-28 12:24:07,187 - INFO - City CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/cities
+2026-06-28 12:24:07,187 - INFO - Merged CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/merged
+2026-06-28 12:24:12,510 - INFO - Starting merge of city CSV files
+2026-06-28 12:24:12,511 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/samarkand.csv
+2026-06-28 12:24:12,518 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/tashkent.csv
+2026-06-28 12:24:12,520 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/bukhara.csv
+2026-06-28 12:24:12,522 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/fergana.csv
+2026-06-28 12:24:12,524 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/andijan.csv
+2026-06-28 12:24:12,526 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/namangan.csv
+2026-06-28 12:24:12,528 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/khiva.csv
+2026-06-28 12:24:12,529 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/urgench.csv
+2026-06-28 12:24:12,530 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/nukus.csv
+2026-06-28 12:24:12,533 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/navoi.csv
+2026-06-28 12:24:12,534 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/jizzakh.csv
+2026-06-28 12:24:12,537 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/termez.csv
+2026-06-28 12:24:12,539 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mubarek.csv
+2026-06-28 12:24:12,539 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/kitab.csv
+2026-06-28 12:24:12,539 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mujnak.csv
+2026-06-28 12:24:12,546 - INFO - Merged 12 files into /Users/asadbek/Documents/hotel_price_category/data/merged/hotels.csv with 1258 rows
+2026-06-28 12:25:15,918 - INFO - Starting merge of city CSV files
+2026-06-28 12:25:15,918 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/samarkand.csv
+2026-06-28 12:25:15,925 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/tashkent.csv
+2026-06-28 12:25:15,928 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/bukhara.csv
+2026-06-28 12:25:15,929 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/fergana.csv
+2026-06-28 12:25:15,930 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/andijan.csv
+2026-06-28 12:25:15,931 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/namangan.csv
+2026-06-28 12:25:15,934 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/khiva.csv
+2026-06-28 12:25:15,935 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/urgench.csv
+2026-06-28 12:25:15,936 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/nukus.csv
+2026-06-28 12:25:15,938 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/navoi.csv
+2026-06-28 12:25:15,939 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/jizzakh.csv
+2026-06-28 12:25:15,939 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/termez.csv
+2026-06-28 12:25:15,940 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mubarek.csv
+2026-06-28 12:25:15,941 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/kitab.csv
+2026-06-28 12:25:15,941 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mujnak.csv
+2026-06-28 12:25:15,952 - INFO - Merged 12 files into /Users/asadbek/Documents/hotel_price_category/data/merged/hotels.csv with 1258 rows
+2026-06-28 12:29:11,079 - INFO - Initializing Hotel_Scraper
+2026-06-28 12:29:11,079 - INFO - Output directory ready: /Users/asadbek/Documents/hotel_price_category/data
+2026-06-28 12:29:11,079 - INFO - City CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/cities
+2026-06-28 12:29:11,080 - INFO - Merged CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/merged
+2026-06-28 12:29:16,577 - INFO - Starting merge of city CSV files
+2026-06-28 12:29:16,577 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/samarkand.csv
+2026-06-28 12:29:16,583 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/tashkent.csv
+2026-06-28 12:29:16,585 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/bukhara.csv
+2026-06-28 12:29:16,586 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/fergana.csv
+2026-06-28 12:29:16,588 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/andijan.csv
+2026-06-28 12:29:16,589 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/namangan.csv
+2026-06-28 12:29:16,590 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/khiva.csv
+2026-06-28 12:29:16,591 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/urgench.csv
+2026-06-28 12:29:16,592 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/nukus.csv
+2026-06-28 12:29:16,593 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/navoi.csv
+2026-06-28 12:29:16,594 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/jizzakh.csv
+2026-06-28 12:29:16,595 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/termez.csv
+2026-06-28 12:29:16,596 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mubarek.csv
+2026-06-28 12:29:16,596 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/kitab.csv
+2026-06-28 12:29:16,596 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mujnak.csv
+2026-06-28 12:29:33,909 - INFO - Initializing Hotel_Scraper
+2026-06-28 12:29:33,910 - INFO - Output directory ready: /Users/asadbek/Documents/hotel_price_category/data
+2026-06-28 12:29:33,910 - INFO - City CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/cities
+2026-06-28 12:29:33,910 - INFO - Merged CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/merged
+2026-06-28 12:29:38,054 - INFO - Starting merge of city CSV files
+2026-06-28 12:29:38,054 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/samarkand.csv
+2026-06-28 12:29:38,060 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/tashkent.csv
+2026-06-28 12:29:38,062 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/bukhara.csv
+2026-06-28 12:29:38,063 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/fergana.csv
+2026-06-28 12:29:38,064 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/andijan.csv
+2026-06-28 12:29:38,066 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/namangan.csv
+2026-06-28 12:29:38,067 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/khiva.csv
+2026-06-28 12:29:38,068 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/urgench.csv
+2026-06-28 12:29:38,069 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/nukus.csv
+2026-06-28 12:29:38,070 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/navoi.csv
+2026-06-28 12:29:38,071 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/jizzakh.csv
+2026-06-28 12:29:38,073 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/termez.csv
+2026-06-28 12:29:38,074 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mubarek.csv
+2026-06-28 12:29:38,074 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/kitab.csv
+2026-06-28 12:29:38,074 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mujnak.csv
+2026-06-28 12:30:32,421 - INFO - Initializing Hotel_Scraper
+2026-06-28 12:30:32,421 - INFO - Output directory ready: /Users/asadbek/Documents/hotel_price_category/data
+2026-06-28 12:30:32,421 - INFO - City CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/cities
+2026-06-28 12:30:32,421 - INFO - Merged CSV directory ready: /Users/asadbek/Documents/hotel_price_category/data/merged
+2026-06-28 12:30:36,768 - INFO - Starting merge of city CSV files
+2026-06-28 12:30:36,769 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/samarkand.csv
+2026-06-28 12:30:36,774 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/tashkent.csv
+2026-06-28 12:30:36,776 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/bukhara.csv
+2026-06-28 12:30:36,777 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/fergana.csv
+2026-06-28 12:30:36,778 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/andijan.csv
+2026-06-28 12:30:36,780 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/namangan.csv
+2026-06-28 12:30:36,781 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/khiva.csv
+2026-06-28 12:30:36,782 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/urgench.csv
+2026-06-28 12:30:36,784 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/nukus.csv
+2026-06-28 12:30:36,784 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/navoi.csv
+2026-06-28 12:30:36,785 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/jizzakh.csv
+2026-06-28 12:30:36,786 - INFO - Loading /Users/asadbek/Documents/hotel_price_category/data/cities/termez.csv
+2026-06-28 12:30:36,788 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mubarek.csv
+2026-06-28 12:30:36,788 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/kitab.csv
+2026-06-28 12:30:36,788 - WARNING - CSV file not found: /Users/asadbek/Documents/hotel_price_category/data/cities/mujnak.csv
+2026-06-28 12:30:36,794 - INFO - Merged 12 files into /Users/asadbek/Documents/hotel_price_category/data/merged/hotels.csv with 1258 rows

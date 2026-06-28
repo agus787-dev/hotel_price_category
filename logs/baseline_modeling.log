@@ -1,0 +1,52 @@
+2026-06-28 15:58:05,410 - INFO - Data loaded: 1258 rows, 8 cols
+2026-06-28 15:58:05,410 - INFO - ==================================================
+2026-06-28 15:58:05,410 - INFO - Starting baseline model comparison
+2026-06-28 15:58:05,410 - INFO - Training Logistic Regression
+2026-06-28 15:58:05,410 - INFO - RestaurantPipeline initialized | target: price_category | model: LogisticRegression
+2026-06-28 15:58:05,410 - INFO - Dataset shape: 1258 rows, 8 cols
+2026-06-28 15:58:05,410 - INFO - ========================================
+2026-06-28 15:58:05,410 - INFO - Training started
+2026-06-28 15:58:05,410 - INFO - Preprocessing started
+2026-06-28 15:58:05,414 - INFO - Target column: 'price_category' | Features: 7 cols
+2026-06-28 15:58:05,415 - INFO - Numeric columns (3): ['price', 'adults', 'distance_to_center']
+2026-06-28 15:58:05,415 - INFO - Categorical columns (4): ['title', 'city', 'description', 'bf_has_included']
+2026-06-28 15:58:05,416 - INFO - No missing values detected
+2026-06-28 15:58:05,416 - INFO - Numeric pipeline built: SimpleImputer(mean) → MinMaxScaler
+2026-06-28 15:58:05,416 - INFO - Categorical pipeline built: SimpleImputer(most_frequent) → OrdinalEncoder
+2026-06-28 15:58:05,416 - INFO - Preprocessing finished
+2026-06-28 15:58:05,416 - INFO - Model algorithm: LogisticRegression
+2026-06-28 15:58:05,454 - INFO - Training finished
+2026-06-28 15:58:05,458 - INFO - Train score: 0.5707
+2026-06-28 15:58:05,458 - INFO - ========================================
+2026-06-28 15:58:05,458 - INFO - Score started
+2026-06-28 15:58:05,459 - INFO - No X/y provided — scoring on training data
+2026-06-28 15:58:05,462 - INFO - Score result: 0.5707
+2026-06-28 15:58:05,463 - INFO - Logistic Regression score: 0.5707
+2026-06-28 15:58:05,463 - INFO - New best model: Logistic Regression (0.5707)
+2026-06-28 15:58:05,463 - INFO - Training Decision Tree
+2026-06-28 15:58:05,463 - INFO - RestaurantPipeline initialized | target: price_category | model: DecisionTreeClassifier
+2026-06-28 15:58:05,463 - INFO - Dataset shape: 1258 rows, 8 cols
+2026-06-28 15:58:05,463 - INFO - ========================================
+2026-06-28 15:58:05,463 - INFO - Training started
+2026-06-28 15:58:05,463 - INFO - Preprocessing started
+2026-06-28 15:58:05,463 - INFO - Target column: 'price_category' | Features: 7 cols
+2026-06-28 15:58:05,463 - INFO - Numeric columns (3): ['price', 'adults', 'distance_to_center']
+2026-06-28 15:58:05,463 - INFO - Categorical columns (4): ['title', 'city', 'description', 'bf_has_included']
+2026-06-28 15:58:05,463 - INFO - No missing values detected
+2026-06-28 15:58:05,463 - INFO - Numeric pipeline built: SimpleImputer(mean) → MinMaxScaler
+2026-06-28 15:58:05,463 - INFO - Categorical pipeline built: SimpleImputer(most_frequent) → OrdinalEncoder
+2026-06-28 15:58:05,463 - INFO - Preprocessing finished
+2026-06-28 15:58:05,463 - INFO - Model algorithm: DecisionTreeClassifier
+2026-06-28 15:58:05,472 - INFO - Training finished
+2026-06-28 15:58:05,476 - INFO - Train score: 1.0000
+2026-06-28 15:58:05,476 - INFO - ========================================
+2026-06-28 15:58:05,477 - INFO - Score started
+2026-06-28 15:58:05,477 - INFO - No X/y provided — scoring on training data
+2026-06-28 15:58:05,480 - INFO - Score result: 1.0000
+2026-06-28 15:58:05,481 - INFO - Decision Tree score: 1.0000
+2026-06-28 15:58:05,481 - INFO - New best model: Decision Tree (1.0000)
+2026-06-28 15:58:05,483 - INFO - ==================================================
+2026-06-28 15:58:05,483 - INFO - Best model: Decision Tree
+2026-06-28 15:58:05,483 - INFO - Best score: 1.0000
+2026-06-28 15:58:05,483 - INFO - Best model saved to ../models/baseline/best_model.joblib
+2026-06-28 15:58:05,483 - INFO - ==================================================

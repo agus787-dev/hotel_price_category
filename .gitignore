@@ -1,0 +1,12 @@
+# Virtual Environment
+myenv/
+
+# Large Data Files
+data/cities/*.csv
+data/merged/*.csv
+
+# Model Files
+models/
+*.joblib
+*.pkl
+*.pickle
