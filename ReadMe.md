@@ -137,7 +137,7 @@ Models are saved using **Joblib**.
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/hotel-price-category.git
+git clone https://github.com/agus787-dev/hotel_price_category.git
 cd hotel-price-category
 ```
 
